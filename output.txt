@@ -1,0 +1,962 @@
+*****************************************************************************************************************************************************
+
++++INPUT :
+
+ 0 8 7
+ 6 5 4
+ 3 2 1
+
+
++++A star algorithm :
+
+Heuristic Cost Method			Min number of moves			Number of nodes expanded			Running time (in s)
+
+               H = 0 (BFS)                            29                                  178265                                           5.83225
+  Sum of hamming distances                            29                                   54808                                           1.94542
+Sum of manhattan distances                            29                                     213                                          0.061486
+Sum of euclidean distances                            29                                    6846                                          0.204828
+
+
+
++++IDA star algorithm :
+
+Heuristic Cost Method			Min number of moves			Number of nodes expanded			Running time (in s)
+
+               H = 0 (BFS)                            45                                   88348                                           99.7865
+  Sum of hamming distances                            37                                   18752                                           8.19766
+Sum of manhattan distances                            29                                     215                                           0.03328
+Sum of euclidean distances                            29                                    1566                                          0.332032
+
+*****************************************************************************************************************************************************
+
++++INPUT :
+
+ 0 5 4
+ 2 7 3
+ 8 6 1
+
+
+Not Solvable puzzle, not running the A* and IDA* algorithms !
+
+
+
+*****************************************************************************************************************************************************
+
++++INPUT :
+
+ 7 0 8
+ 4 5 6
+ 2 3 1
+
+
+Not Solvable puzzle, not running the A* and IDA* algorithms !
+
+
+
+*****************************************************************************************************************************************************
+
++++INPUT :
+
+ 5 8 6
+ 7 0 4
+ 3 2 1
+
+
++++A star algorithm :
+
+Heuristic Cost Method			Min number of moves			Number of nodes expanded			Running time (in s)
+
+               H = 0 (BFS)                            29                                  179513                                           5.83875
+  Sum of hamming distances                            29                                   72426                                           2.49212
+Sum of manhattan distances                            29                                    6158                                          0.242824
+Sum of euclidean distances                            29                                   20006                                          0.668656
+
+
+
++++IDA star algorithm :
+
+Heuristic Cost Method			Min number of moves			Number of nodes expanded			Running time (in s)
+
+               H = 0 (BFS)                            39                                   33403                                           88.7624
+  Sum of hamming distances                            33                                   26729                                            7.7029
+Sum of manhattan distances                            29                                    3175                                          0.333072
+Sum of euclidean distances                            31                                    5969                                           2.58477
+
+*****************************************************************************************************************************************************
+
++++INPUT :
+
+ 0 7 8
+ 2 4 3
+ 5 6 1
+
+
++++A star algorithm :
+
+Heuristic Cost Method			Min number of moves			Number of nodes expanded			Running time (in s)
+
+               H = 0 (BFS)                            25                                  131606                                           5.14754
+  Sum of hamming distances                            25                                   13966                                          0.632464
+Sum of manhattan distances                            25                                    1225                                           0.05504
+Sum of euclidean distances                            25                                    2696                                          0.105696
+
+
+
++++IDA star algorithm :
+
+Heuristic Cost Method			Min number of moves			Number of nodes expanded			Running time (in s)
+
+               H = 0 (BFS)                            41                                   53785                                           92.1288
+  Sum of hamming distances                            33                                   14716                                            4.1168
+Sum of manhattan distances                            25                                     548                                          0.056448
+Sum of euclidean distances                            31                                    3203                                           1.23498
+
+*****************************************************************************************************************************************************
+
++++INPUT :
+
+ 1 2 4
+ 3 5 6
+ 8 0 7
+
+
++++A star algorithm :
+
+Heuristic Cost Method     Min number of moves     Number of nodes expanded      Running time (in s)
+
+               H = 0 (BFS)                            24                                  111235                                           3.65411
+  Sum of hamming distances                            24                                   11788                                          0.419399
+Sum of manhattan distances                            24                                    1423                                           0.05377
+Sum of euclidean distances                            24                                    3045                                          0.087029
+
+
+
++++IDA star algorithm :
+
+Heuristic Cost Method     Min number of moves     Number of nodes expanded      Running time (in s)
+
+               H = 0 (BFS)                            26                                   17053                                            7.6753
+  Sum of hamming distances                            24                                    4005                                           1.00483
+Sum of manhattan distances                            26                                    1112                                          0.106718
+Sum of euclidean distances                            26                                    1342                                          0.351698
+
+*****************************************************************************************************************************************************
+
++++INPUT :
+
+ 3 1 2
+ 5 0 8
+ 4 6 7
+
+
++++A star algorithm :
+
+Heuristic Cost Method     Min number of moves     Number of nodes expanded      Running time (in s)
+
+               H = 0 (BFS)                            19                                   23182                                          0.706457
+  Sum of hamming distances                            19                                    1582                                          0.058639
+Sum of manhattan distances                            19                                     248                                           0.00573
+Sum of euclidean distances                            19                                     502                                          0.012295
+
+
+
++++IDA star algorithm :
+
+Heuristic Cost Method     Min number of moves     Number of nodes expanded      Running time (in s)
+
+               H = 0 (BFS)                            19                                    7516                                           2.37795
+  Sum of hamming distances                            19                                     501                                          0.098056
+Sum of manhattan distances                            19                                      83                                          0.007237
+Sum of euclidean distances                            19                                     161                                          0.035374
+
+*****************************************************************************************************************************************************
+
++++INPUT :
+
+ 2 3 6
+ 1 5 4
+ 0 8 7
+
+
+Not Solvable puzzle, not running the A* and IDA* algorithms !
+
+
+
+*****************************************************************************************************************************************************
+
++++INPUT :
+
+ 3 1 0
+ 5 8 6
+ 4 2 7
+
+
+Not Solvable puzzle, not running the A* and IDA* algorithms !
+
+
+
+*****************************************************************************************************************************************************
+
++++INPUT :
+
+ 6 3 8
+ 5 1 4
+ 0 2 7
+
+
++++A star algorithm :
+
+Heuristic Cost Method     Min number of moves     Number of nodes expanded      Running time (in s)
+
+               H = 0 (BFS)                            25                                  140023                                            4.5328
+  Sum of hamming distances                            25                                   13995                                           0.50704
+Sum of manhattan distances                            25                                    1058                                           0.04113
+Sum of euclidean distances                            25                                    3291                                           0.09314
+
+
+
++++IDA star algorithm :
+
+Heuristic Cost Method     Min number of moves     Number of nodes expanded      Running time (in s)
+
+               H = 0 (BFS)                            43                                   27241                                           80.8701
+  Sum of hamming distances                            35                                   30612                                           9.64706
+Sum of manhattan distances                            25                                     723                                          0.079832
+Sum of euclidean distances                            25                                    3117                                              0.51
+
+*****************************************************************************************************************************************************
+
++++INPUT :
+
+ 1 2 4
+ 3 5 6
+ 8 0 7
+
+
++++A star algorithm :
+
+Heuristic Cost Method     Min number of moves     Number of nodes expanded      Running time (in s)
+
+               H = 0 (BFS)                            24                                  111235                                           3.54936
+  Sum of hamming distances                            24                                   11788                                          0.404228
+Sum of manhattan distances                            24                                    1423                                          0.049442
+Sum of euclidean distances                            24                                    3045                                          0.084873
+
+
+
++++IDA star algorithm :
+
+Heuristic Cost Method     Min number of moves     Number of nodes expanded      Running time (in s)
+
+               H = 0 (BFS)                            24                                  645649                                              95.7
+  Sum of hamming distances                            24                                   15729                                           1.96599
+Sum of manhattan distances                            24                                    1115                                          0.084624
+Sum of euclidean distances                            24                                    3158                                          0.454352
+
+*****************************************************************************************************************************************************
+
++++INPUT :
+
+ 0 3 8
+ 2 4 1
+ 5 6 7
+
+
++++A star algorithm :
+
+Heuristic Cost Method     Min number of moves     Number of nodes expanded      Running time (in s)
+
+               H = 0 (BFS)                            25                                  128167                                           4.09977
+  Sum of hamming distances                            25                                   13162                                           0.46804
+Sum of manhattan distances                            25                                     793                                          0.033792
+Sum of euclidean distances                            25                                    2997                                          0.086256
+
+
+
++++IDA star algorithm :
+
+Heuristic Cost Method     Min number of moves     Number of nodes expanded      Running time (in s)
+
+               H = 0 (BFS)                            25                                  555700                                           150.512
+  Sum of hamming distances                            25                                   12849                                           2.56494
+Sum of manhattan distances                            25                                     744                                          0.064672
+Sum of euclidean distances                            25                                    2120                                          0.390512
+
+*****************************************************************************************************************************************************
+
++++INPUT :
+
+ 6 8 2
+ 5 0 1
+ 3 4 7
+
+
+Not Solvable puzzle, not running the A* and IDA* algorithms !
+
+
+
+*****************************************************************************************************************************************************
+
++++INPUT :
+
+ 0 1 3
+ 2 6 5
+ 4 8 7
+
+
+Not Solvable puzzle, not running the A* and IDA* algorithms !
+
+
+
+*****************************************************************************************************************************************************
+
++++INPUT :
+
+ 0 8 2
+ 6 5 4
+ 1 3 7
+
+
+Not Solvable puzzle, not running the A* and IDA* algorithms !
+
+
+
+*****************************************************************************************************************************************************
+
++++INPUT :
+
+ 1 2 3
+ 4 5 0
+ 6 7 8
+
+
++++A star algorithm :
+
+Heuristic Cost Method     Min number of moves     Number of nodes expanded      Running time (in s)
+
+               H = 0 (BFS)                            14                                    2194                                          0.056677
+  Sum of hamming distances                            14                                     154                                          0.003432
+Sum of manhattan distances                            14                                      68                                          0.001352
+Sum of euclidean distances                            14                                     104                                          0.002139
+
+
+
++++IDA star algorithm :
+
+Heuristic Cost Method     Min number of moves     Number of nodes expanded      Running time (in s)
+
+               H = 0 (BFS)                            14                                     355                                          0.233032
+  Sum of hamming distances                            14                                      23                                          0.008625
+Sum of manhattan distances                            14                                      18                                          0.001496
+Sum of euclidean distances                            14                                      21                                          0.005715
+
+*****************************************************************************************************************************************************
+
++++INPUT :
+
+ 3 2 7
+ 5 0 4
+ 1 6 8
+
+
++++A star algorithm :
+
+Heuristic Cost Method     Min number of moves     Number of nodes expanded      Running time (in s)
+
+               H = 0 (BFS)                            27                                  168863                                           5.50149
+  Sum of hamming distances                            27                                   40249                                           1.37632
+Sum of manhattan distances                            27                                    2986                                          0.114391
+Sum of euclidean distances                            27                                   10263                                          0.318306
+
+
+
++++IDA star algorithm :
+
+Heuristic Cost Method     Min number of moves     Number of nodes expanded      Running time (in s)
+
+               H = 0 (BFS)                            27                                 2805063                                           619.888
+  Sum of hamming distances                            27                                   61133                                           10.5787
+Sum of manhattan distances                            27                                    2565                                          0.195264
+Sum of euclidean distances                            27                                    8523                                           1.45325
+
+*****************************************************************************************************************************************************
+
++++INPUT :
+
+ 3 2 1
+ 7 6 5
+ 0 4 8
+
+
+Not Solvable puzzle, not running the A* and IDA* algorithms !
+
+
+
+*****************************************************************************************************************************************************
+
++++INPUT :
+
+ 7 5 0
+ 1 3 4
+ 6 2 8
+
+
+Not Solvable puzzle, not running the A* and IDA* algorithms !
+
+*****************************************************************************************************************************************************
+
++++INPUT :
+
+ 1 2 5
+ 3 4 0
+ 6 7 8
+
+
++++A star algorithm :
+
+Heuristic Cost Method     Min number of moves     Number of nodes expanded      Running time (in s)
+
+               H = 0 (BFS)                            22                                   63211                                           2.04755
+  Sum of hamming distances                            22                                    4997                                          0.180965
+Sum of manhattan distances                            22                                     440                                          0.013528
+Sum of euclidean distances                            22                                    1423                                          0.041526
+
+
+
++++IDA star algorithm :
+
+Heuristic Cost Method     Min number of moves     Number of nodes expanded      Running time (in s)
+
+               H = 0 (BFS)                            22                                   73706                                            27.514
+  Sum of hamming distances                            22                                    1995                                          0.560884
+Sum of manhattan distances                            22                                     242                                          0.022322
+Sum of euclidean distances                            22                                     543                                          0.129928
+
+*****************************************************************************************************************************************************
+
++++INPUT :
+
+ 2 0 4
+ 6 7 5
+ 1 3 8
+
+
+Not Solvable puzzle, not running the A* and IDA* algorithms !
+
+
+
+*****************************************************************************************************************************************************
+
++++INPUT :
+
+ 6 1 7
+ 5 2 0
+ 4 3 8
+
+
+Not Solvable puzzle, not running the A* and IDA* algorithms !
+
+
+
+*****************************************************************************************************************************************************
+
++++INPUT :
+
+ 2 6 5
+ 4 1 0
+ 3 7 8
+
+
++++A star algorithm :
+
+Heuristic Cost Method     Min number of moves     Number of nodes expanded      Running time (in s)
+
+               H = 0 (BFS)                            20                                   38365                                           1.17875
+  Sum of hamming distances                            20                                    1541                                           0.06412
+Sum of manhattan distances                            20                                     189                                           0.00465
+Sum of euclidean distances                            20                                     616                                          0.014592
+
+
+
++++IDA star algorithm :
+
+Heuristic Cost Method     Min number of moves     Number of nodes expanded      Running time (in s)
+
+               H = 0 (BFS)                            20                                   10046                                           8.12183
+  Sum of hamming distances                            20                                     211                                            0.1537
+Sum of manhattan distances                            20                                      35                                           0.00414
+Sum of euclidean distances                            20                                      58                                          0.033604
+
+*****************************************************************************************************************************************************
+
++++INPUT :
+
+ 4 6 2
+ 1 0 7
+ 5 3 8
+
+
+Not Solvable puzzle, not running the A* and IDA* algorithms !
+
+
+*****************************************************************************************************************************************************
+
++++INPUT :
+
+ 2 1 3
+ 5 4 0
+ 6 7 8
+
+
++++A star algorithm :
+
+Heuristic Cost Method     Min number of moves     Number of nodes expanded      Running time (in s)
+
+               H = 0 (BFS)                            20                                   28960                                          0.881065
+  Sum of hamming distances                            20                                    2253                                          0.079848
+Sum of manhattan distances                            20                                     439                                          0.012963
+Sum of euclidean distances                            20                                     799                                           0.02069
+
+
+
++++IDA star algorithm :
+
+Heuristic Cost Method     Min number of moves     Number of nodes expanded      Running time (in s)
+
+               H = 0 (BFS)                            20                                  188185                                           13.1842
+  Sum of hamming distances                            20                                    5799                                          0.312959
+Sum of manhattan distances                            20                                     898                                          0.026172
+Sum of euclidean distances                            20                                    1895                                          0.089937
+
+*****************************************************************************************************************************************************
+
++++INPUT :
+
+ 3 0 5
+ 1 2 6
+ 7 4 8
+
+
+Not Solvable puzzle, not running the A* and IDA* algorithms !
+
+
+
+*****************************************************************************************************************************************************
+
++++INPUT :
+
+ 3 5 0
+ 7 4 2
+ 6 1 8
+
+
+Not Solvable puzzle, not running the A* and IDA* algorithms !
+
+
+
+*****************************************************************************************************************************************************
+
++++INPUT :
+
+ 4 2 6
+ 5 0 7
+ 1 3 8
+
+
+Not Solvable puzzle, not running the A* and IDA* algorithms !
+
+
+
+*****************************************************************************************************************************************************
+
++++INPUT :
+
+ 1 0 5
+ 4 6 3
+ 7 2 8
+
+
+Not Solvable puzzle, not running the A* and IDA* algorithms !
+
+
+
+*****************************************************************************************************************************************************
+
++++INPUT :
+
+ 7 5 4
+ 1 3 6
+ 2 0 8
+
+
+Not Solvable puzzle, not running the A* and IDA* algorithms !
+
+
+*****************************************************************************************************************************************************
+
++++INPUT :
+
+ 2 1 3
+ 5 4 6
+ 0 8 7
+
+
+Not Solvable puzzle, not running the A* and IDA* algorithms !
+
+
+
+*****************************************************************************************************************************************************
+
++++INPUT :
+
+ 4 5 8
+ 0 2 6
+ 3 1 7
+
+
+Not Solvable puzzle, not running the A* and IDA* algorithms !
+
+
+
+*****************************************************************************************************************************************************
+
++++INPUT :
+
+ 8 6 2
+ 1 5 0
+ 3 4 7
+
+
+Not Solvable puzzle, not running the A* and IDA* algorithms !
+
+
+
+*****************************************************************************************************************************************************
+
++++INPUT :
+
+ 1 5 3
+ 4 0 2
+ 6 8 7
+
+
++++A star algorithm :
+
+Heuristic Cost Method     Min number of moves     Number of nodes expanded      Running time (in s)
+
+               H = 0 (BFS)                            23                                   99855                                           3.35403
+  Sum of hamming distances                            23                                    9779                                          0.366008
+Sum of manhattan distances                            23                                    1403                                          0.046263
+Sum of euclidean distances                            23                                    3470                                          0.108939
+
+
+
++++IDA star algorithm :
+
+Heuristic Cost Method     Min number of moves     Number of nodes expanded      Running time (in s)
+
+               H = 0 (BFS)                            23                                 1211379                                            86.311
+  Sum of hamming distances                            23                                   35436                                            2.0195
+Sum of manhattan distances                            23                                    5286                                          0.183584
+Sum of euclidean distances                            23                                   11068                                          0.620984
+
+*****************************************************************************************************************************************************
+
++++INPUT :
+
+ 3 5 1
+ 0 4 6
+ 8 2 7
+
+
+Not Solvable puzzle, not running the A* and IDA* algorithms !
+
+
+
+*****************************************************************************************************************************************************
+
++++INPUT :
+
+ 5 8 1
+ 6 2 0
+ 3 4 7
+
+
+Not Solvable puzzle, not running the A* and IDA* algorithms !
+
+
+
+*****************************************************************************************************************************************************
+
++++INPUT :
+
+ 0 1 4
+ 5 2 8
+ 3 6 7
+
+
+Not Solvable puzzle, not running the A* and IDA* algorithms !
+
+
+*****************************************************************************************************************************************************
+
++++INPUT :
+
+ 1 3 2
+ 5 4 0
+ 6 8 7
+
+
+Not Solvable puzzle, not running the A* and IDA* algorithms !
+
+
+
+*****************************************************************************************************************************************************
+
++++INPUT :
+
+ 4 5 8
+ 6 1 0
+ 2 3 7
+
+
++++A star algorithm :
+
+Heuristic Cost Method     Min number of moves     Number of nodes expanded      Running time (in s)
+
+               H = 0 (BFS)                            26                                  153434                                           4.92331
+  Sum of hamming distances                            26                                   24468                                          0.827539
+Sum of manhattan distances                            26                                     777                                          0.042115
+Sum of euclidean distances                            26                                    5167                                          0.151558
+
+
+
++++IDA star algorithm :
+
+Heuristic Cost Method     Min number of moves     Number of nodes expanded      Running time (in s)
+
+               H = 0 (BFS)                            26                                 1642863                                           293.575
+  Sum of hamming distances                            26                                   34095                                           4.84659
+Sum of manhattan distances                            26                                     695                                           0.04896
+Sum of euclidean distances                            26                                    3434                                          0.491872
+
+*****************************************************************************************************************************************************
+
++++INPUT :
+
+ 4 2 5
+ 8 1 0
+ 6 3 7
+
+
+Not Solvable puzzle, not running the A* and IDA* algorithms !
+
+
+
+*****************************************************************************************************************************************************
+
++++INPUT :
+
+ 3 4 8
+ 1 2 6
+ 5 0 7
+
+
++++A star algorithm :
+
+Heuristic Cost Method     Min number of moves     Number of nodes expanded      Running time (in s)
+
+               H = 0 (BFS)                            24                                  120481                                           3.82387
+  Sum of hamming distances                            24                                   10758                                          0.386208
+Sum of manhattan distances                            24                                     831                                          0.032864
+Sum of euclidean distances                            24                                    2930                                            0.0816
+
+
+
++++IDA star algorithm :
+
+Heuristic Cost Method     Min number of moves     Number of nodes expanded      Running time (in s)
+
+               H = 0 (BFS)                            24                                  300330                                           85.2768
+  Sum of hamming distances                            24                                    6581                                           1.55786
+Sum of manhattan distances                            24                                     523                                          0.051104
+Sum of euclidean distances                            24                                    1225                                          0.290272
+
+*****************************************************************************************************************************************************
+
++++INPUT :
+
+ 3 1 8
+ 5 0 2
+ 6 4 7
+
+
++++A star algorithm :
+
+Heuristic Cost Method     Min number of moves     Number of nodes expanded      Running time (in s)
+
+               H = 0 (BFS)                            25                                  139581                                           4.44285
+  Sum of hamming distances                            25                                   14754                                           0.51936
+Sum of manhattan distances                            25                                    1193                                          0.046848
+Sum of euclidean distances                            25                                    3120                                          0.089856
+
+
+
++++IDA star algorithm :
+
+Heuristic Cost Method     Min number of moves     Number of nodes expanded      Running time (in s)
+
+               H = 0 (BFS)                            25                                 1993863                                           216.063
+  Sum of hamming distances                            25                                   46815                                           3.93587
+Sum of manhattan distances                            25                                    2370                                          0.087616
+Sum of euclidean distances                            25                                    7054                                           0.47968
+
+*****************************************************************************************************************************************************
+
++++INPUT :
+
+ 0 8 1
+ 6 5 4
+ 3 2 7
+
+
+Not Solvable puzzle, not running the A* and IDA* algorithms !
+
+
+
+*****************************************************************************************************************************************************
+
++++INPUT :
+
+ 8 5 0
+ 3 1 6
+ 4 2 7
+
+
++++A star algorithm :
+
+Heuristic Cost Method     Min number of moves     Number of nodes expanded      Running time (in s)
+
+               H = 0 (BFS)                            19                                   20768                                          0.620352
+  Sum of hamming distances                            19                                    1107                                          0.041664
+Sum of manhattan distances                            19                                      77                                          0.001792
+Sum of euclidean distances                            19                                     209                                           0.00448
+
+
+
++++IDA star algorithm :
+
+Heuristic Cost Method     Min number of moves     Number of nodes expanded      Running time (in s)
+
+               H = 0 (BFS)                            19                                   78904                                           5.64358
+  Sum of hamming distances                            19                                    1745                                          0.089344
+Sum of manhattan distances                            19                                      59                                            0.0016
+Sum of euclidean distances                            19                                     264                                           0.01088
+
+*****************************************************************************************************************************************************
+
++++INPUT :
+
+ 4 0 3
+ 1 5 2
+ 8 6 7
+
+
++++A star algorithm :
+
+Heuristic Cost Method     Min number of moves     Number of nodes expanded      Running time (in s)
+
+               H = 0 (BFS)                            22                                   66428                                           2.12557
+  Sum of hamming distances                            22                                    5074                                           0.18112
+Sum of manhattan distances                            22                                    1179                                           0.03232
+Sum of euclidean distances                            22                                    2066                                          0.053824
+
+
+
++++IDA star algorithm :
+
+Heuristic Cost Method     Min number of moves     Number of nodes expanded      Running time (in s)
+
+               H = 0 (BFS)                            22                                  198453                                           29.7743
+  Sum of hamming distances                            22                                    5680                                          0.686464
+Sum of manhattan distances                            22                                     808                                           0.05024
+Sum of euclidean distances                            22                                    1714                                           0.21536
+
+*****************************************************************************************************************************************************
+
++++INPUT :
+
+ 8 5 1
+ 6 3 2
+ 4 0 7
+
+
+Not Solvable puzzle, not running the A* and IDA* algorithms !
+
+
+
+*****************************************************************************************************************************************************
+
++++INPUT :
+
+ 0 3 4
+ 5 1 8
+ 2 6 7
+
+
+Not Solvable puzzle, not running the A* and IDA* algorithms !
+
+
+
+*****************************************************************************************************************************************************
+
++++INPUT :
+
+ 1 5 3
+ 8 0 2
+ 4 6 7
+
+
++++A star algorithm :
+
+Heuristic Cost Method     Min number of moves     Number of nodes expanded      Running time (in s)
+
+               H = 0 (BFS)                            21                                   54653                                            1.7792
+  Sum of hamming distances                            21                                    4260                                           0.15104
+Sum of manhattan distances                            21                                     724                                          0.020352
+Sum of euclidean distances                            21                                    1495                                          0.039872
+
+
+
++++IDA star algorithm :
+
+Heuristic Cost Method     Min number of moves     Number of nodes expanded      Running time (in s)
+
+               H = 0 (BFS)                            21                                   72549                                           17.5672
+  Sum of hamming distances                            21                                    2381                                          0.446016
+Sum of manhattan distances                            21                                     418                                          0.035712
+Sum of euclidean distances                            21                                     822                                           0.15808
+
+*****************************************************************************************************************************************************
+
++++INPUT :
+
+ 4 3 0
+ 1 8 2
+ 5 6 7
+
+
+Not Solvable puzzle, not running the A* and IDA* algorithms !
+
+
+
+*****************************************************************************************************************************************************
+
++++INPUT :
+
+ 6 4 8
+ 0 5 3
+ 2 1 7
+
+
+Not Solvable puzzle, not running the A* and IDA* algorithms !
